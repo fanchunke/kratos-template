@@ -1,0 +1,12 @@
+version: v1
+plugins:
+  - plugin: openapi
+    out: third_party/OpenAPI/swagger-ui
+    opt:
+      - fq_schema_naming=true
+      - version=0.1.0
+  - plugin: openapi
+    out: third_party/OpenAPI/redoc
+    opt:
+      - fq_schema_naming=true
+      - version=0.1.0
